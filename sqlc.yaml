@@ -1,0 +1,17 @@
+version: 1
+packages:
+  - path: "internal/app/repository/user"
+    name: "repoUser"
+    engine: "postgresql"
+    schema: "internal/app/repository/user/sql/schema.sql"
+    queries: "internal/app/repository/user/sql/query.sql"
+  - path: "internal/app/repository/skill"
+    name: "repoSkill"
+    engine: "postgresql"
+    schema: "internal/app/repository/skill/sql/schema.sql"
+    queries: "internal/app/repository/skill/sql/query.sql"
+  - path: "internal/app/repository/activity"
+    name: "repoActivity"
+    engine: "postgresql"
+    schema: "internal/app/repository/activity/sql/schema.sql"
+    queries: "internal/app/repository/activity/sql/query.sql"

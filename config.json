@@ -1,0 +1,18 @@
+{
+  "jwt": {
+    "secret_key": "SUPER_SECRET_KEY",
+    "expiration_in_seconds": 3600
+  },
+  "http_config": {
+    "port": 3000,
+    "timeout_per_request_in_ms": 5000,
+    "basic_auth_username": "secret_uname",
+    "basic_auth_password": "secret_password"
+  },
+  "database_config": {
+    "dsn": "postgres://root:root@localhost:5432/gikslab?sslmode=disable"
+  },
+  "redis_config": {
+    "url": "redis://localhost:6379"
+  }
+}
